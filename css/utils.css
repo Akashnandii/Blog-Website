@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+:root {
+    --main-bg-color: rgb(223, 68, 68);
+    --main-bg-color1: rgb(147, 147, 231);
+    --font1: "Baloo Bhai 2", sans-serif;
+    --font2: "Roboto Flex", sans-serif;
+}
+.center{
+    text-align: center;
+}
+.font-1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-1 {
+    margin-left: 35%;
+}
+
+.my-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    padding: 0px 11px;
+    border: 3px solid black;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color1);
+}
+
+.form-input {
+    padding: 0px 5px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.form-box input,
+textarea {
+    width: 40vw;
+    padding: 3px 8px;
+    margin: 7px 0;
+    border: 2px solid rgb(150, 101, 10);
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: var(--font1);
+
+}

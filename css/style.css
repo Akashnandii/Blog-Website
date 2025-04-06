@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 23px;
+    font-family: var(--font2);
+    /* height: 74px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left span {
+    font-size: 30px;
+    padding-bottom: 3px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font1);
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 230px;
+    border: 2px solid black;
+    border-radius: 62px;
+}
+
+.content {
+    height: 100%;
+    /* background-color: rgb(147, 147, 231); */
+    padding: 9px;
+    display: flex;
+    margin-top: 32px;
+    border-radius: 30px;
+    transition: all 0.8s ease-in-out;
+    position: relative;
+}
+
+.content:hover {
+    background: url(../img/11.svg);
+}
+
+.home-articles {
+    padding: 17px;
+    margin-top: 23px;
+    padding-right: 0;
+    border-radius: 30px;
+    background-color: rgb(237, 170, 170);
+    transition: all 0.8s ease-in-out;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 135px;
+    /* height: 129px; */
+    right: 11px;
+    top: 123px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: red; */
+}
+.year-box div{
+    margin: 8px 0px;
+}
+
+.home-articles:hover {
+    background: var(--main-bg-color1);
+}
+
+.home-article {
+    display: flex;
+    margin: 23px;
+}
+
+.home-article img {
+    width: 300px;
+    border-radius: 74px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.footer {
+    height: 50px;
+    background-color: rgb(81 12 12);
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
