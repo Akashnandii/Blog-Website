@@ -31,3 +31,8 @@ Check out the live version here:
 
 I’m always open to feedback and suggestions to improve this project.  
 Feel free to fork, clone, or reach out if you’d like to collaborate!
+
+
+⭐ Show Your Support
+
+If you liked this project, give it a star ⭐ on GitHub!
